@@ -1,5 +1,5 @@
 {
-  "name": "-vue-course",
+  "name": "vue-course",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -16,7 +16,23 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "vite": "^7.0.6",
     "vite-plugin-vue-devtools": "^8.0.0"
-  }
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vviko-ko/VUE-TUTORIAL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vviko-ko/VUE-TUTORIAL/issues"
+  },
+  "homepage": "https://github.com/vviko-ko/VUE-TUTORIAL#readme"
 }
