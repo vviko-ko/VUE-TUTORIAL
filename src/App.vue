@@ -60,7 +60,7 @@
           <!-- Profile Dropdown -->
           <div class="relative" @click.away="dropdownOpen = false">
             <button @click="dropdownOpen = !dropdownOpen" class="flex items-center space-x-2">
-              <img src="https://via.placeholder.com/40" class="w-8 h-8 rounded-full" alt="Profile" />
+              <img src="../assets/user.jpg" class="w-8 h-8 rounded-full" alt="Profile" />
               <span class="hidden md:inline font-medium">John Doe</span>
               <icon icon="mdi:chevron-down" class="w-4 h-4" />
             </button>
